@@ -10,8 +10,8 @@
 //
 //
 //
-//        //if (userinput == "shop"){
+//        if (userinput == "shop"){
 //
 //        }
-//    }
-//shop
+//
+//
