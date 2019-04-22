@@ -19,7 +19,7 @@ public boolean isPlotFilled(){
     return plotFilled;
 }
 
-public void displayPlot(){
+public void displayPlotempty(){
     System.out.println( "_________________________" );
     System.out.println("|_ _ _ _ _ _ _ _ _ _ _ _ _|" );
     System.out.println("|_ _ _ _ _ _ _ _ _ _ _ _ _|" );
@@ -30,6 +30,23 @@ public void displayPlot(){
     System.out.println("|_ _ _ _ _ _ _ _ _ _ _ _ _|" );
     System.out.println("|_ _ _ _ _ _ _ _ _ _ _ _ _|" );
     System.out.println("|_________________________|" );
+}
+
+public void displayPlotFilled(){
+    System.out.println( "_________________________" );
+    System.out.println("|. _ . _ . _ . _ . _ . _ _|" );
+    System.out.println("|. _ . _ . _ . _ . _ . _ _|" );
+    System.out.println("|. _ . _ . _ . _ . _ . _ _|" );
+    System.out.println("|. _ . _ . _ . _ . _ . _ _|" );
+    System.out.println("|. _ . _ . _ . _ . _ . _ _|" );
+    System.out.println("|. _ . _ . _ . _ . _ . _ _|" );
+    System.out.println("|. _ . _ . _ . _ . _ . _ _|" );
+    System.out.println("|. _ . _ . _ . _ . _ . _ _|" );
+    System.out.println("|_________________________|" );
+
+
+
+
 }
 
 
