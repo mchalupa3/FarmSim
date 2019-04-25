@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
 public class Shop {
+    public int money = 100;
+
 
     public void tpShop(){
 
         Scanner Sc = new Scanner(System.in);
-        int money = 100;
         String userinput;
         int debt;
         System.out.println("Welcome to the shop!");
