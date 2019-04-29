@@ -6,9 +6,9 @@ public double cropTime;
 public void setPlotStatus(boolean  b){
     plotFilled = b;
 }
+  public static int[][] plots = new int[3][3];
 
 public static void main(String[] args){
-    int[][] plots = new int[3][3];
     for(int i = 0; i < 4; i++ ){
         for(int b = 0; b < 4; b++){
             plots[i][b] = 0;
